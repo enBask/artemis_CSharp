@@ -69,6 +69,9 @@ namespace Artemis.System
         {
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public override void ProcessSystem()
         {
             Entity entity = this.EntityWorld.TagManager.GetEntity(this.Tag);

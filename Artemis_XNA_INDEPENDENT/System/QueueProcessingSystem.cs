@@ -81,6 +81,9 @@ namespace Artemis.System
             this.queue.Enqueue(entity);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public override void ProcessSystem()
         {
             int size = this.queue.Count > this.EntitiesToProcessEachFrame ? this.EntitiesToProcessEachFrame : this.queue.Count;
